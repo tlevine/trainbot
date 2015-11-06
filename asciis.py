@@ -6,7 +6,9 @@ evilpatterns = [
     ["HYPERLOO+P", "hyperloop"],
 ]
 
-asciipatterns = ["CALTRAAAAA+IN",
+asciipatterns = [
+"EXPLAA+IN",
+"CALTRAAAAA+IN",
 "TRAAAAA+IN",
 "TERRAAAAA+IN",
 "PLAAAAA+NE",
@@ -37,6 +39,29 @@ def load(filename):
    return [ lines[0:third], lines[third:2*third], lines[2*third:] ]
 
 asciis=[
+
+# http://www.asciiartfarts.com/20010216.html
+# http://www.asciiworld.com/-Robots,24-.html
+['''      _n____n__
+     /         \---||--<
+    /___________\
+    _|____|____|_
+    _|____|____|_
+     |    |    |'''.split('\n'),
+'''    --------------
+    | || || || ||\
+    | || || || || \++++++++------<
+    ==============='''.split('\n'),
+'''    |   |  |  |   |
+   (| O | O| O| O |)
+   |   |   |   |   |
+  (| O | O | O | O |)
+   |   |   |   |    |
+ (| O |  O | O  | O |)
+  |   |    |    |    |
+ (| O |  O |  O |  O |)
+ ======================'''.split('\n')],
+
 [['           __________________________________________', 
 '       .--/__|_|____________________________________|', 
 '       /     |-|         Cal\x0316,4train\x03            |.|  | |', 
